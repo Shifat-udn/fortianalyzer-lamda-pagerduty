@@ -27,7 +27,12 @@ add
 - MONITOR_TIME_MIN (Observation Time)
 - POLICY_ID (Policy ID of monitoring policy)
 - SNS_TOPIC (arn of SNS topic , where alert goes)
-
+- 
+## AWS SNS & Pagerduty Integrations :
+Crate a standard SNS topic and add a HTTPS subscription. 
+<img width="1491" height="467" alt="image" src="https://github.com/user-attachments/assets/a156507c-806a-44ba-a837-a0243666e2d1" />
+On the PagerDuty side Create Servcie and add CloudWatch Intrigration If you need take help from : https://support.pagerduty.com/main/docs/amazon-cloudwatch-integration-guide 
+<img width="840" height="402" alt="image" src="https://github.com/user-attachments/assets/23f9060c-4c95-43dc-b96f-f710f0d7f6a9" />
 
 Fortianalyzer API referance : 
 https://how-to-fortianalyzer-api.readthedocs.io/en/latest/docs/pilot/logview-search.html
